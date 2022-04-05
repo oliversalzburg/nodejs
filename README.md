@@ -4,7 +4,7 @@
 - Yarn 3
 - Uses TypeScript
 - Target application runs in NodeJS
-- Snowpack build
+- ESBuild
 - Editorconfig + ESLint + Prettier + Lint-Staged
 - Renovate
 
