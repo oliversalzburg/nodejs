@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "checkJs": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "importHelpers": true,
+    "lib": ["ESNext"],
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "outDir": "output",
+    "sourceMap": true,
+    "strict": true,
+    "target": "ESNext",
+    "incremental": true,
+    "skipLibCheck": true,
+    "types": ["@types/node"]
+  },
+  "include": ["./@types", "./source"],
+  "exclude": ["./output"]
+}
