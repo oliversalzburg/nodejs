@@ -6,6 +6,7 @@
 - Target application runs in NodeJS
 - Snowpack build
 - Editorconfig + ESLint + Prettier + Lint-Staged
+- Renovate
 
 ## Doesn't
 - Yarn PnP
