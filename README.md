@@ -7,6 +7,7 @@
 - ESBuild
 - Editorconfig + ESLint + Prettier + Lint-Staged
 - Renovate
+- MkDocs-oriented Markdown in mind
 
 ## Doesn't
 - Yarn PnP
