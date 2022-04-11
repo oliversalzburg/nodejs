@@ -6,7 +6,7 @@
 - Target application runs in NodeJS
 - ESBuild
 - Editorconfig + ESLint + Prettier + Lint-Staged
-- Renovate
+- Renovate (auto-merge `@types`)
 - MkDocs-oriented Markdown in mind
 
 ## Doesn't
