@@ -15,6 +15,7 @@
 
 -   [Yarn PnP](https://yarnpkg.com/features/pnp)
 -   [Yarn telemetry](https://yarnpkg.com/advanced/telemetry)
+-   [Yarn Zero-Installs](https://yarnpkg.com/features/zero-installs)
 -   [Husky](https://github.com/typicode/husky)
 
 ## Why
@@ -42,6 +43,10 @@
 1.  Why is telemetry disabled?
 
     Whenever possible, the disclosure of _any_ data should be opt-in. Please refer to the document linked above, and enable telemetry after carefully reading it.
+
+1.  Why not Zero-Installs?
+
+    Zero-Installs are purely a `.gitignore`-controlled feature. Most new adopters do not expect the behavior of the default configuration and some adopters have raised concerns over long-term effects. Enable it after carefully reading the article linked above.
 
 1.  Why not use Husky for the hook?
 
