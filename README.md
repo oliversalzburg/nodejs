@@ -8,7 +8,6 @@
 -   [esbuild](https://esbuild.github.io/)
 -   [EditorConfig](https://editorconfig.org/) + [ESLint](https://eslint.org/) + [Prettier](https://prettier.io/) + [lint-staged](https://github.com/okonet/lint-staged)
 -   QA with [GitHub Actions](https://github.com/features/actions)
--   [Renovate](https://github.com/renovatebot/renovate) (auto-merge `@types`, no dashboard)
 -   [MkDocs](https://www.mkdocs.org/)-oriented Markdown in mind
 
 ## Doesn't
@@ -27,10 +26,6 @@
 1.  Why esbuild?
 
     We want fast builds. The code is still checked for correctness in the editor and in CI.
-
-1.  Why Renovate?
-
-    Dependabot doesn't play nice with Yarn sometimes. We don't like Dependabot, we like Renovate.
 
 1.  Why the MkDocs Markdown?
 
