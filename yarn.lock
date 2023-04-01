@@ -1820,12 +1820,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:2.6.1":
-  version: 2.6.1
-  resolution: "prettier@npm:2.6.1"
+"prettier@npm:2.8.7":
+  version: 2.8.7
+  resolution: "prettier@npm:2.8.7"
   bin:
     prettier: bin-prettier.js
-  checksum: f2ff00a8e075089fd07f5b45af29f26cd280c01f5bb2973369b9e1326588ec0d9a35c81f37a7e1e780f418d3e5cbf6d586b41a161d06eeb6fa76e554c2ba7f4b
+  checksum: 84c5b62f7d4909ae5b18b1a4cee67f6a30a548244c8919e67158dee1453f4fa4ff4d291c6f2e41e21d443a0c405f03ec27690502d4ad90c3a7c59bcaf38b51ba
   languageName: node
   linkType: hard
 
@@ -2262,7 +2262,7 @@ __metadata:
     esbuild: 0.17.11
     eslint: 8.35.0
     lint-staged: 12.3.7
-    prettier: 2.6.1
+    prettier: 2.8.7
     prettier-package-json: 2.6.3
     prettier-plugin-organize-imports: 3.2.2
     typescript: 5.0.3
