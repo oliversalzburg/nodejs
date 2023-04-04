@@ -13,7 +13,7 @@
     "@types/node": "18.14.6",
     "@typescript-eslint/eslint-plugin": "5.17.0",
     "@typescript-eslint/parser": "5.18.0",
-    "esbuild": "0.17.11",
+    "esbuild": "0.17.15",
     "eslint": "8.35.0",
     "lint-staged": "12.3.7",
     "prettier": "2.8.7",
