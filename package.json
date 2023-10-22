@@ -1,6 +1,6 @@
 {
   "name": "yarn3-typescript-nodejs-esbuild",
-  "packageManager": "yarn@3.6.4",
+  "packageManager": "yarn@4.0.0",
   "author": "Oliver Salzburg <oliver.salzburg@gmail.com>",
   "license": "MIT",
   "scripts": {
