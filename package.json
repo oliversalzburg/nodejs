@@ -1,10 +1,11 @@
 {
   "name": "yarn3-typescript-nodejs-esbuild",
-  "packageManager": "yarn@4.0.0",
-  "author": "Oliver Salzburg <oliver.salzburg@gmail.com>",
   "license": "MIT",
+  "author": "Oliver Salzburg <oliver.salzburg@gmail.com>",
+  "type": "module",
   "scripts": {
-    "build": "node build.cjs",
+    "build": "node build.js",
+    "clean": "rm -rf ./output",
     "lint:eslint": "eslint source",
     "lint:tsc": "tsc --noEmit"
   },
@@ -20,5 +21,6 @@
     "prettier-package-json": "2.8.0",
     "prettier-plugin-organize-imports": "3.2.3",
     "typescript": "5.2.2"
-  }
+  },
+  "packageManager": "yarn@4.0.0"
 }

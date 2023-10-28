@@ -2,9 +2,9 @@
 
 ## Does
 
--   [Yarn 3](https://yarnpkg.com/)
+-   [Yarn](https://yarnpkg.com/)
 -   Uses [TypeScript](https://www.typescriptlang.org/)
--   Target application runs in [Node.js](https://nodejs.org/)
+-   Target application runs in [Node.js](https://nodejs.org/) as ESM
 -   [esbuild](https://esbuild.github.io/)
 -   [EditorConfig](https://editorconfig.org/) + [ESLint](https://eslint.org/) + [Prettier](https://prettier.io/) + [lint-staged](https://github.com/okonet/lint-staged)
 -   QA with [GitHub Actions](https://github.com/features/actions)
