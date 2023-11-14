@@ -29,5 +29,7 @@ jobs:
         run: yarn lint:eslint
       - name: Lint TSC
         run: yarn lint:tsc
+      - name: Lint Prettier
+        run: yarn lint:prettier
       - name: Build
         run: yarn build
