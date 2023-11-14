@@ -1,22 +1,43 @@
+"use strict";
+
 module.exports = {
   root: true,
+
   env: {
     node: true,
     es2022: true,
   },
-  extends: ["eslint:recommended"],
-  plugins: ["@typescript-eslint"],
+
+  ignorePatterns: ["output/*"],
   overrides: [
     {
-      files: ["*.ts", "*.tsx"],
+      files: ["*.cjs"],
+      extends: ["eslint:recommended"],
+      parserOptions: {
+        sourceType: "commonjs",
+      },
+    },
+    {
+      files: ["*.js", "*.mjs"],
+      extends: ["eslint:recommended"],
+      parserOptions: {
+        sourceType: "module",
+      },
+    },
+    {
+      files: ["*.cts", "*.mts", "*.ts"],
       extends: [
-        "plugin:@typescript-eslint/recommended",
-        "plugin:@typescript-eslint/recommended-requiring-type-checking",
+        "eslint:recommended",
+        "plugin:@typescript-eslint/strict-type-checked",
+        "plugin:@typescript-eslint/stylistic-type-checked",
       ],
       parserOptions: {
         project: ["./tsconfig.json"],
+        tsconfigRootDir: __dirname,
       },
+      plugins: ["@typescript-eslint"],
       rules: {
+        "@typescript-eslint/array-type": ["error", { default: "generic" }],
         "@typescript-eslint/no-explicit-any": [
           "error",
           {
@@ -24,14 +45,18 @@ module.exports = {
           },
         ],
         "no-unused-vars": "off",
-        "@typescript-eslint/no-unused-vars": "error",
+        "@typescript-eslint/no-unused-vars": ["error", { args: "none" }],
         "@typescript-eslint/no-var-requires": "off",
       },
     },
   ],
   rules: {
+    "consistent-return": "error",
+    "no-else-return": "error",
     "no-unused-expressions": "warn",
+    "no-use-before-define": "error",
+    eqeqeq: "error",
     quotes: "warn",
+    strict: ["error", "global"],
   },
-  ignorePatterns: ["output/*"],
 };
