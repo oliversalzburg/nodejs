@@ -19,8 +19,8 @@
     "strict": true,
     "target": "ESNext",
     "types": ["@types/node"],
-    "useDefineForClassFields": true,
+    "useDefineForClassFields": true
   },
   "include": ["./@types", "./source"],
-  "exclude": ["./output"],
+  "exclude": ["./output"]
 }
