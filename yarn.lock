@@ -414,7 +414,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/mocha@npm:^10":
+"@types/mocha@npm:10.0.6":
   version: 10.0.6
   resolution: "@types/mocha@npm:10.0.6"
   checksum: 10c0/4526c9e88388f9e1004c6d3937c5488a39908810f26b927173c58d52b43057f3895627dc06538e96706e08b88158885f869ec6311f6b58fd72bdef715f26d6c3
@@ -3365,7 +3365,7 @@ __metadata:
   dependencies:
     "@types/chai": "npm:4.3.11"
     "@types/eslint": "npm:8.56.2"
-    "@types/mocha": "npm:^10"
+    "@types/mocha": "npm:10.0.6"
     "@types/node": "npm:20.11.18"
     "@typescript-eslint/eslint-plugin": "npm:7.0.1"
     "@typescript-eslint/parser": "npm:7.0.1"
