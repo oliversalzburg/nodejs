@@ -4,6 +4,7 @@
 
 -   [Yarn](https://yarnpkg.com/)
 -   Uses [TypeScript](https://www.typescriptlang.org/)
+-   Tests with [Mocha](https://mochajs.org/) and [Chai](https://www.chaijs.com/), uses [c8](https://github.com/bcoe/c8) for code coverage
 -   Target application runs in [Node.js](https://nodejs.org/) as ESM
 -   [esbuild](https://esbuild.github.io/)
 -   [EditorConfig](https://editorconfig.org/) + [ESLint](https://eslint.org/) (with [@typescript-eslint](https://typescript-eslint.io/)) + [Prettier](https://prettier.io/) + [lint-staged](https://github.com/okonet/lint-staged)
