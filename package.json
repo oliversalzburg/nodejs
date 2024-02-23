@@ -16,7 +16,7 @@
     "test:coverage": "tsc && c8 --reporter=html-spa node $(yarn bin mocha) output/*.test.js"
   },
   "devDependencies": {
-    "@types/chai": "4.3.11",
+    "@types/chai": "4.3.12",
     "@types/eslint": "8.56.3",
     "@types/mocha": "10.0.6",
     "@types/node": "20.11.20",
