@@ -27,7 +27,7 @@
     "esbuild": "0.20.2",
     "eslint": "8.57.0",
     "lint-staged": "15.2.2",
-    "mocha": "10.3.0",
+    "mocha": "10.4.0",
     "prettier": "3.2.5",
     "prettier-package-json": "2.8.0",
     "prettier-plugin-organize-imports": "3.2.4",
