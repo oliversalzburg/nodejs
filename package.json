@@ -16,22 +16,23 @@
     "test:coverage": "tsc && c8 --reporter=html-spa node $(yarn bin mocha) output/*.test.js"
   },
   "devDependencies": {
+    "@eslint/js": "9.1.1",
     "@types/chai": "4.3.14",
     "@types/eslint": "8.56.10",
     "@types/mocha": "10.0.6",
     "@types/node": "20.12.7",
-    "@typescript-eslint/eslint-plugin": "7.7.1",
-    "@typescript-eslint/parser": "7.7.1",
     "c8": "9.1.0",
     "chai": "5.1.0",
     "esbuild": "0.20.2",
     "eslint": "8.57.0",
+    "globals": "15.0.0",
     "lint-staged": "15.2.2",
     "mocha": "10.4.0",
     "prettier": "3.2.5",
     "prettier-package-json": "2.8.0",
     "prettier-plugin-organize-imports": "3.2.4",
-    "typescript": "5.4.5"
+    "typescript": "5.4.5",
+    "typescript-eslint": "7.7.1"
   },
   "packageManager": "yarn@4.1.1"
 }
