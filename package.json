@@ -16,7 +16,7 @@
     "test:coverage": "tsc && c8 --reporter=html-spa node $(yarn bin mocha) output/*.test.js"
   },
   "devDependencies": {
-    "@eslint/js": "9.5.0",
+    "@eslint/js": "9.6.0",
     "@oliversalzburg/eslint-config": "0.0.13",
     "@oliversalzburg/js-utils": "0.0.57",
     "@types/chai": "4.3.16",
@@ -26,7 +26,7 @@
     "c8": "10.1.2",
     "chai": "5.1.1",
     "esbuild": "0.21.5",
-    "eslint": "9.5.0",
+    "eslint": "9.6.0",
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-jsdoc": "48.5.0",
     "eslint-plugin-tsdoc": "0.3.0",
