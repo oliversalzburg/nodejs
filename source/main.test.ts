@@ -1,5 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-expressions */
-/* eslint-disable no-unused-expressions */
 import { expect } from "chai";
 import { describe, it } from "mocha";
 import { nothing } from "./main.js";
