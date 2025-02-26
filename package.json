@@ -4,16 +4,6 @@
   "license": "MIT",
   "author": "Oliver Salzburg <oliver.salzburg@gmail.com>",
   "type": "module",
-  "scripts": {
-    "build": "node build.js",
-    "clean": "rm -rf ./output",
-    "lint": "yarn run lint:all",
-    "lint:all": "yarn run lint:biome && yarn run lint:tsc",
-    "lint:biome": "biome check .",
-    "lint:tsc": "tsc --noEmit",
-    "test": "tsc && node $(yarn bin mocha) output/*.test.js",
-    "test:coverage": "tsc && c8 --reporter=html-spa node $(yarn bin mocha) output/*.test.js"
-  },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
     "@oliversalzburg/js-utils": "0.2.3",
