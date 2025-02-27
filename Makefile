@@ -5,7 +5,7 @@ default: build
 build: output
 
 clean:
-	rm --force --recursive node_modules output
+	rm --force --recursive node_modules output tsconfig.tsbuildinfo
 
 docs:
 	@echo "No documentation included by default."
@@ -21,8 +21,7 @@ lint: node_modules
 	yarn biome check .
 	yarn tsc --noEmit
 
-test: clean
-	yarn tsc
+test: build
 	yarn c8 --reporter=html-spa mocha output/*.test.js
 
 run: build
