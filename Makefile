@@ -21,7 +21,8 @@ lint: node_modules
 	yarn biome check .
 	yarn tsc --noEmit
 
-test: build
+test:
+	yarn tsc
 	yarn c8 --reporter=html-spa mocha output/*.test.js
 
 run: build
