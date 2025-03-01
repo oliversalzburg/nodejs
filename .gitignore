@@ -6,8 +6,8 @@
 !.yarn/versions
 .pnp.*
 
-build
-coverage
-node_modules
-output
+build/
+coverage/
+node_modules/
+output/
 tsconfig.tsbuildinfo
