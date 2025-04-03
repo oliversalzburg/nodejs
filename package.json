@@ -7,7 +7,7 @@
   "type": "module",
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
-    "@oliversalzburg/js-utils": "0.2.13",
+    "@oliversalzburg/js-utils": "0.3.0",
     "@types/chai": "5.2.1",
     "@types/mocha": "10.0.10",
     "@types/node": "22.14.0",
