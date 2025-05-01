@@ -11,7 +11,7 @@ docs:
 	@echo "No documentation included by default."
 
 git-hook:
-	echo "make pretty" > .git/hooks/pre-commit
+	echo "make pretty" > .git/hooks/pre-commit; chmod +x .git/hooks/pre-commit
 
 pretty: node_modules
 	yarn biome check --write --no-errors-on-unmatched
