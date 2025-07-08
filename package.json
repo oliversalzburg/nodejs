@@ -6,7 +6,7 @@
   "author": "Oliver Salzburg <oliver.salzburg@gmail.com>",
   "type": "module",
   "devDependencies": {
-    "@biomejs/biome": "2.0.6",
+    "@biomejs/biome": "2.1.0",
     "@oliversalzburg/js-utils": "0.4.3",
     "@types/chai": "5.2.2",
     "@types/mocha": "10.0.10",
