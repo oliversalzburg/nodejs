@@ -1,1 +1,1 @@
-export const nothing = undefined;
+export const nothing = null;

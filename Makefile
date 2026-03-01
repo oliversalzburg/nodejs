@@ -23,7 +23,7 @@ lint: node_modules
 
 test:
 	npm exec -- tsc
-	npm exec -- c8 --reporter=html-spa mocha output/*.test.js
+	node --test output/*.test.js
 
 run: build
 	node ./output/main.js

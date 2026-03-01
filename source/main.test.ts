@@ -1,9 +1,9 @@
-import { expect } from "chai";
-import { describe, it } from "mocha";
+import assert from "node:assert";
+import { describe, it } from "node:test";
 import { nothing } from "./main.js";
 
 describe("main", () => {
   it("should export nothing", () => {
-    expect(nothing).to.be.undefined;
+    assert.strictEqual(nothing, null);
   });
 });
